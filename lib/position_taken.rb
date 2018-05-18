@@ -1,5 +1,5 @@
 # code your #position_taken? method here!
-def position_taken(board, pos)
+def position_taken?(board, pos)
   if (board[pos] == " " || board[pos] == "")
     return false
   else
